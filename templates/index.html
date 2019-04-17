@@ -2,13 +2,7 @@
 <html>
 <head>
 	<title>GLS Fullstack Exercise</title>
-	<style type="text/css">
-.myClass1 {padding: 10px 20px;border: 1px solid green;margin-bottom: 50px;}
-
-.myClass2 {padding: 50px;border: 1px solid red;display: inline-block;position: absolute;right: 0px;}
-
-.myClass3 {padding: 50px;border: 1px solid blue;display: inline-block;position: absolute;left: 0px; bottom: 0px;}		
-	</style>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
 	<h1>GLS Fullstack Exercise</h1>
@@ -17,6 +11,9 @@
 	<div class="myClass2">Second tip on me using class.</div>
 
 	<div class="myClass3">I am the 3rd div. 3rd tip on me using xpath.</div>
-  <script src="{{ url_for('static', filename='player.js') }}">
+  <div class="learningSidebar">Learning Path</div>
+  <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+  <script src="{{ url_for('static', filename='player.js') }}"></script>
 </body>
 </html>

@@ -1,0 +1,40 @@
+.myClass1 {
+  padding: 10px 20px;
+  border: 1px 
+  solid green;
+  margin-bottom: 50px;
+}
+
+.myClass2 {
+  padding: 50px;
+  border: 1px solid red;
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+}
+
+.myClass3 {
+  padding: 50px;
+  border: 1px solid blue;
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+.myClass1, .myClass2, .myClass3 {
+  display: none;
+}
+
+.learningSidebar {
+  background-color: #fff900;
+  position: absolute;
+  height: 155px;
+  width: 40px;
+  text-orientation: upright;
+  writing-mode: vertical-lr;
+  text-align: center;
+  border-radius: 4%;
+  right: 1px;
+  bottom: 66px;
+}
