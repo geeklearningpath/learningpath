@@ -22,7 +22,7 @@
   bottom: 0px;
 }
 
-.myClass1, .myClass2, .myClass3 {
+.hide {
   display: none;
 }
 
@@ -37,4 +37,11 @@
   border-radius: 4%;
   right: 1px;
   bottom: 66px;
+  cursor: pointer;
+}
+
+#learningDialog {
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
 }
